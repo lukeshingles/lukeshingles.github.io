@@ -1,0 +1,154 @@
+html {
+	background: black no-repeat left 150px url('background2.jpg');
+    padding: 0 2em 2em 2em;
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+	color: white;
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    min-width: 500px;
+    max-width: 900px;
+    background-image: url('starship-enterprise.png');
+    background-repeat: no-repeat;
+    background-position: center 9em;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1 {
+    display: block;
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+
+body > h2 {
+    margin: 1em 0 1.5em 0;
+    font-size: 1.0em;
+    font-weight: normal;
+}
+
+#nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-transform: uppercase;
+    clear: both;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 0.0em;
+    width: 25%;
+}
+
+#nav li a {
+    margin: 0;
+    display: block;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.8em 0;
+    background: rgba(50, 50, 50, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#nav li:last-child a {
+	border-right: none;
+}
+
+#nav li a#active, #content {
+    background: rgba(80, 80, 80, 0.8);s
+}
+
+#nav li a:hover {
+    background: #898989;
+}
+
+#content {
+    padding: 2.5em;
+    min-height: 25em;
+}
+
+#content, #content h2, #content h3 {
+    line-height: 1.4em;
+}
+
+#content h2 {
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.3em;
+	margin-bottom: 0.5em;
+	border-bottom: 1px white solid;
+}
+
+#content h3 {
+	font-size: 1.0em;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.0em;
+	margin-bottom: 0.5em;
+}
+
+#content ul {
+	margin: 0;
+	padding: 0;
+}
+
+#content li {
+	margin: 0;
+	padding: 0;
+}
+
+#content iframe {
+	max-width: 100%;
+}
+
+#content a {
+    color: orange;
+}
+
+#content > :first-child {
+	margin-top: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+	margin-bottom: 1em;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+table.timetable {
+    margin: 0;
+    margin-bottom: 1em;
+ }
+
+table.timetable td:first-child {
+    width: 5em;
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+table.timetable span.talktitle {
+    color: #BAEFFD;
+}
+
+ul.participants {
+    list-style: none;
+}
