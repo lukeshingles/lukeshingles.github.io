@@ -1,0 +1,15 @@
+html {
+  background: darkblue;
+  font-family:'Helvetica';
+}
+
+body {
+  background: white;
+  margin: 30px 80px;
+  padding: 2em;
+  line-height: 2em;
+}
+
+h1 {
+  margin-top: 0;
+}
