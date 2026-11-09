@@ -59,6 +59,10 @@ h1 {
   color: var(--muted);
 }
 
+.summary {
+  margin: 0.75rem 0 0;
+}
+
 /* A stylised stellar spectrum: dark absorption lines on a continuum. */
 .spectrum {
   height: 0.5rem;
@@ -116,6 +120,67 @@ h1 {
 .links .detail {
   color: var(--muted);
   font-size: 0.875rem;
+}
+
+/* This row has two links, so each link has its own target area. */
+.links .split {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0 1.75rem;
+}
+
+.links .split a {
+  display: inline-block;
+}
+
+.links .split a:hover {
+  color: var(--accent);
+}
+
+h2 {
+  margin: 2.5rem 0 0.25rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.work {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work li {
+  padding: 0.85rem 0;
+}
+
+.work li + li {
+  border-top: 1px solid var(--rule);
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.work p {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.work a {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+
+.work a:hover {
+  color: var(--accent);
 }
 
 address {
